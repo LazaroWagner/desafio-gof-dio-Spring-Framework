@@ -2,7 +2,9 @@ package one.desafio.gof.desafio_lab_padroes_projeto_gof_spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableFeignClients
 @SpringBootApplication
 public class DesafioLabPadroesProjetoGofSpringApplication {
 
